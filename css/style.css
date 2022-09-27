@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #201b2c;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main form {
+    font-size: 20px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    background-color: #2f2841;
+    padding: 3rem 2rem;
+    box-shadow: 0 10px 40px #00000056;
+    margin-bottom: 3rem;
+}
+
+main h1 {
+    margin-bottom: 25px;
+    color: #f0ffffde;
+    font-size: 2.5rem;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.indbox {
+    text-align: right;
+    margin-right: 0.4rem;
+}
+
+
+.indbox label {
+    background-color: #00ff88;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    padding: 0.8rem;
+    border-radius: 10px;
+    
+}
+form label {
+    color: #f0ffffde;
+    margin: 10px 0px 10px 0px;
+}
+
+form input {
+    background-color: #514869;
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    border-radius: 8px;
+    color: #f0ffffde;
+    box-shadow: 0 10px 40px #00000056;
+    margin-bottom: 25px;
+}
+
+form input::placeholder {
+    color: #f0ffff94;
+    font-size: 1rem;
+    opacity: 50%;
+}
+
+form .btn-center {
+    display: flex;
+    justify-content: center;
+}
+
+form button {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    padding: 15px 0px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #00ff88;
+    font-weight: bold;
+    text-transform: capitalize;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    color: #2b134b;
+    width: 40%;
+}
+
+form button:hover {
+    transition: 0.3s;
+    filter: brightness(80%);
+    transform: scale(1.05);
+}
+
+@media (max-width: 625px) {
+    main form {
+        width: 80vw;
+    }
+    main h1 {
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+td, p {
+    color: #f0ffffde;
+}
+
+td {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+table {
+    border: solid 1px #00ff88;
+    background-color: #514869;
+    border-radius: 8px;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+}
